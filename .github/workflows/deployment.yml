@@ -1,7 +1,7 @@
 name: Deploy project
 on: push
 jobs:
-  test:git reset --hard HEAD^
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Get code from repository
